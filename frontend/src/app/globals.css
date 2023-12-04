@@ -9,3 +9,45 @@ body {
   font-size: 16px;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
 }
+
+.container {
+  max-width: 1536px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+@media screen and (max-width: 1536px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media screen and (max-width: 1280) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .container {
+    max-width: 450px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .container {
+    max-width: 280px;
+  }
+}
