@@ -1,0 +1,13 @@
+{
+  "name": "next_nest_mongo_template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:server": "cd backend && npm run start:dev",
+    "dev:client": "cd frontend && npm run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
